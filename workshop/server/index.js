@@ -1,0 +1,11 @@
+const express = require('express');
+const cors = require('cors');
+const yrdlcors = require('ytdl-core');
+
+const app = express();
+app.listen(4000, () =>
+{
+    console.log('SERVER WORKS');
+}
+
+);
